@@ -3,7 +3,7 @@ Assignment #3: Responsive Web Design
 Student Name: Baglan Nurgali
 Group: IT-2501
 
-Github:https://github.com/baglan-nurgali/
+Github:https://github.com/baglan-nurgali/Web_asnm3
 Link:https://baglan-nurgali.github.io/Web_asnm3/
 
 Part 1: Media Queries
