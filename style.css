@@ -1,0 +1,47 @@
+        h1.task0-title {
+            font-size: 20px; 
+            color: #333;
+        }
+        p.task0-text {
+            font-size: 14px;
+            color: #666;
+        }
+        @media (min-width: 768px) {
+            h1.task0-title { font-size: 28px; } 
+            p.task0-text { font-size: 16px; }
+        }
+        @media (min-width: 1024px) {
+            h1.task0-title { font-size: 36px; } 
+            p.task0-text { font-size: 18px; }
+        }
+        .custom-box-container {
+            display: flex;
+            flex-direction: column; 
+            gap: 15px;
+        }
+        .custom-box {
+            background-color: #0d6efd;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 6px;
+        }
+        @media (min-width: 768px) {
+            .custom-box-container {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .custom-box {
+                flex: 1 1 45%; 
+            }
+        }
+        @media (min-width: 1024px) {
+            .custom-box {
+                flex: 1 1 30%; 
+            }
+        }
+        section {
+            padding: 40px 20px;
+            border-bottom: 2px solid #dee2e6;
+        }
